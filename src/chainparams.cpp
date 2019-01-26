@@ -136,6 +136,14 @@ public:
         assert(hashGenesisBlock == uint256("0x000009b47d9728a9e9a8929154b8388763005e9571d4f5acee7f61f134379b85"));
         assert(genesis.hashMerkleRoot == uint256("0xc966c2a9eb205e39aa5367304738ed772cf54cd2dbbd6c830179e593e78f6663"));
         
+        //Merge Addnodes
+        vSeeds.push_back(CDNSSeedData("Addnodes", "209.250.250.27"));
+        vSeeds.push_back(CDNSSeedData("Addnodes", "139.99.172.8"));
+        vSeeds.push_back(CDNSSeedData("Addnodes", "222.94.48.67"));
+        vSeeds.push_back(CDNSSeedData("Addnodes", "207.189.24.169"));
+        vSeeds.push_back(CDNSSeedData("Addnodes", "84.60.32.61"));
+        vSeeds.push_back(CDNSSeedData("Addnodes", "212.237.60.222"));
+
 
         vSeeds.push_back(CDNSSeedData("seed1.almex.team", "seed1.almex.team"));
         vSeeds.push_back(CDNSSeedData("seed2.almex.team", "seed2.almex.team"));
